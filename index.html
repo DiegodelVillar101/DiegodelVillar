@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Diego del Villar</title>
+</head>
+<body>
+
+    <!-- <div class="title">
+        <h2 class="name">Hola!, Soy <span>DIEGO DEL VILLAR</span></h2>
+    </div> -->
+
+    <section class="content">
+        <div class="box">
+            <div class="imgbx">
+                <img src="./img/yo.jpg" alt="Diego del Villar">
+                <h2>Clickea Para Cerrar</h2>
+                <div class="text">
+                    <h3>Diego Sebastián Pérez Sánchez del Villar</h3>
+                    <p>Nací en la Ciudad de México, tengo 19 años <br>
+                        Me gustan los deportes y los videojuegos, no hace mucho hago calistenia y de vez en cuando juego fútbol.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="imgbx">
+                <img src="./img/work.jpg" alt="programacion">
+                <h2>Clickea Para Cerrar</h2>
+                <div class="text">
+                    <h3>Programación</h3>
+                    <p>Me gusta aprender cosas nuevas, desde que conocí la programación me fui adentrando más y más, 
+                        hoy tengo conocimientos que me ayudan en mi trabajo y vida diaria.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="imgbx">
+                <img src="./img/soumaya.jpg" alt="soumaya">
+                <h2>Clickea Para Cerrar</h2>
+                <div class="text">
+                    <h3>Viajes</h3>
+                    <p>Me encanta viajar, uno de mis lugares favoritos es la CDMX, igual me gusta el Puerto de Veracruz y Querétaro,</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="imgbx">
+                <img src="./img/cabaña.jpg" alt="cabaña">
+                <h2>Clickea Para Cerrar</h2>
+                <div class="text">
+                    <h3>Chilling Time</h3>
+                    <p>En mis tiempos libres me gusta hacer ejercicio o programar, aunque aveces prefiero solo ver series o jugar videojuegos,</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="imgbx">
+                <img src="./img/gdn.JPG" alt="gestion y direccion de negocios">
+                <h2>Clickea Para Cerrar</h2>
+                <div class="text">
+                    <h3>Universidad</h3>
+                    <p>Estoy estudiando la Licenciatura en Gestión y Dirección de Negocios, en la Universidada Veracruzana,</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <ul class="sci">
+                <li><a href="https://www.facebook.com/diego.sebastian.77964">Facebook</a></li>
+                <li><a href="https://www.instagram.com/diego_delvillar/?hl=es-la">Instagram</a></li>
+                <li><a href="https://github.com/DiegodelVillar101">GitHub</a></li>
+            </ul>
+            <p class="copyrightText">DiegodelVillar2020.</p>
+        </div>
+    </section>
+    <script>
+        let imgbx = document.querySelectorAll('.imgbx')
+        imgbx.forEach(popup => popup.addEventListener('click', () =>{
+            popup.classList.toggle('active')
+        }))
+    </script>
+</body>
+</html>
