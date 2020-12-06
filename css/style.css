@@ -28,7 +28,7 @@ span{
     align-items: center;
     flex-wrap: wrap;
     min-height: 100vh;
-    background: #001;
+    background: linear-gradient(to right, #000000, #859398); /* Chrome 10-25, Safari 5.1-6 */
     /* background: linear-gradient(40deg, rgba(34,217,219,1) 0%, rgba(0,0,0,1) 100%); */
 }
 
@@ -39,6 +39,11 @@ span{
     background: red;
     margin: 10px;
     overflow: hidden;
+    cursor: pointer;
+}
+
+.content .box:hover{
+    box-shadow: 0 0 15px #cfdcff, 0 0 15px #86b6ff, 0 0 15px #81b7ff;
 }
 
 .content .box .imgbx{
@@ -70,7 +75,7 @@ span{
 } 
 
 .content .box .imgbx img:hover{
-    width: 120%;
+    width: 110%;
     transition: .5s;
 }
 
